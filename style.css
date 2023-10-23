@@ -233,7 +233,15 @@ details[open] div{
   font-family: arial;
   overflow:hidden;
   font-size:28px;
-
+}
+.card_a {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  overflow:hidden;
+  font-size:28px;
 }
 .spons{
   font-family: 'Roboto Condensed', sans-serif;
