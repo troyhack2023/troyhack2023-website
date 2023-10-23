@@ -1,23 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Roboto+Condensed:wght@300&display=swap');
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .table, .body {
-    width: 100%;
-  }
-}
+
 @media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .body, .main, .table {
-    width: 100%;
-  }
-}
-body{
+ 
+ body{
   background-image:url("download.png");	
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
@@ -27,69 +14,69 @@ body{
   background-size: cover;
   background-attachment:fixed;
   opacity: 0.9;
-}
+ }
 
-header{
+ header{
   background-color:#6d0017;
   color: #fff;
   padding: 2rem;
   justify-content: space-between;
   
-}
+ }
 
-.heading img {
+ .heading img {
   float: left;
   position:relative;
   bottom:10px;
   background: #555;
-}
+ }
 
-.heading h1 {
-  position: relative;
+ .heading h1 {
+   position: relative;
   
-}
-h1{
+ }
+ h1{
 	font-size: 5vw;
 	font-family: 'Press Start 2P', cursive;
 	font-weight: bold;
 	
-}
-.logo img{
- width: 150px; /* Set the width */
- height: auto; /* Keep the aspect ratio */
+ }
+ .logo img{
+  width: 150px; /* Set the width */
+  height: auto; /* Keep the aspect ratio */
  
-}
+ }
 
-* {
+ * {
   box-sizing: border-box;
   margin: 10px;
   padding: 0;
-}
-h2{
+ }
+ h2{
   font-family:'Press Start 2P', cursive;
-}
+ }
 
-h2, h3 {
+ h2, h3 {
   font-weight: bold;
   margin-bottom: 1rem;
   
-}
+ }
 
-a {
+ a {
   
   text-decoration: none;
-}
+ }
 
-a:hover {
+ a:hover {
   text-decoration: underline;
-}
+ }
 
-ul {
+ ul {
   list-style: none;
   margin-left: 10px;
-}
+ }
 
-main {
+ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -97,31 +84,31 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 
-}
-.hackathon-table tbody tr td:first-child {
-  text-align: right;
-}
+ }
+ .hackathon-table tbody tr td:first-child {
+   text-align: right;
+ }
 
 /* Center align text in the header column */
-.hackathon-table thead th {
+ .hackathon-table thead th {
   text-align: center;
-}
-section {
+ }
+ section {
   margin-bottom: 2rem;
-}
+ }
 
-section h2 {
+ section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-}
+ }
 
-section p {
+ section p {
   font-size: 1.2rem;
   line-height: 1.6;
-}
+ }
 
 
-.register {
+ .register {
   padding: 25px 300px;
   font-size: 24px;
   text-align: center;
@@ -134,90 +121,90 @@ section p {
   box-shadow: 0 9px #999;
  
   
-}
+ }
 
-.register:hover {background-color: #3e8e41}
+ .register:hover {background-color: #3e8e41}
 
-.register:active {
+ .register:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
+ }
 
-table {
+ table {
       border-collapse: collapse;
       width: 100%;
-}
-td {
+ }
+ td {
       border: 3px solid black;
       text-align: center;
       padding: 8px;
       overflow-x: hidden;
       white-space: nowrap;
-}
-th {
+ }
+ th {
   border: 1px solid black;
       text-align: center;
       padding: 8px;
       background-color: #f2f2f2;
-}
-.date{
+ }
+ .date{
   align-items: center;
-}
+ }
 /* Footer styles */
-footer {
+ footer {
   background-color: #6d0017;
   color: #fff;
   padding: 1rem;
   text-align: center;
-}
+ }
 
 
 
 /*FAQs*/
 
-.container h1{
+ .container h1{
   color: #000000;
   text-align: center;
   
-}
+ }
 
-details{
+ details{
   background-color: white;
   color: #000000;
   font-size: 1.3rem;
   cursor: pointer;
-}
+ }
 
-summary {
+ summary {
   padding: .5em 1.3rem;
   list-style: none;
   display: flex;
   justify-content: space-between;  
   transition: height 1s ease;
 
-}
+ }
 
-summary::-webkit-details-marker {
+ summary::-webkit-details-marker {
   display: none;
-}
+ }
 
-summary:after{
+ summary:after{
   content: "\002B";
-}
+ }
 
-details[open] summary {
+ details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
-}
+ }
 
-details[open] summary:after{
+ details[open] summary:after{
   content: "\00D7";
-}
+ }
 
-details[open] div{
+ details[open] div{
   padding: .5em 1em;
-}
+ }
 
 
 
@@ -225,7 +212,7 @@ details[open] div{
 
 /*Sponsers CSS*/
 
-.card {
+ .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 350px;
   margin: auto;
@@ -233,8 +220,8 @@ details[open] div{
   font-family: arial;
   overflow:hidden;
   font-size:28px;
-}
-.card_a {
+ }
+ .card_a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 350px;
   margin: auto;
@@ -242,16 +229,16 @@ details[open] div{
   font-family: arial;
   overflow:hidden;
   font-size:28px;
-}
-.spons{
+ }
+ .spons{
   font-family: 'Roboto Condensed', sans-serif;
-}
-.title {
+ }
+ .title {
   color: grey;
   font-size: 20px;
-}
+ }
 
-.button {
+ .button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -262,14 +249,15 @@ details[open] div{
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-}
+ }
 
-.a {
+ .a {
   text-decoration: none;
   font-size: 22px;
   color: black;
-}
+ }
 
-.button:hover, a:hover {
+ .button:hover, a:hover {
   opacity: 2;
+ }
 }
