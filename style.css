@@ -39,8 +39,8 @@ header{
 
 .heading img {
   float: left;
-  
-  
+  position:relative;
+  bottom:10px;
   background: #555;
 }
 
